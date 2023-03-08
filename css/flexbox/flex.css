@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+    background-color: violet;
+}
+
+/* Cualquier elemento dentro del flex */
+.flex > * {
+    /* border: 1px solid firebrick !important; */
+    /* padding: 1rem !important; */
+    /* flex-grow: Cuánto se agranda;
+    flex-shrink: Cuánto se achica;
+    flex-basis: Base flexible - tamaño por defecto; */
+    /*En 1 es el 100% del tamaño del flex container*/
+    /* flex-grow: 1; */
+    /* flex-basis: 100px; */
+}
+
+.flex > div {
+    border: 1px solid aquamarine;
+    /* flex-grow: 1; con flex-basis: 0%; */ 
+    /* flex-basis: 100%; */
+    /* Si se quieren aplicar las 3 propiedades juntas se pueden hacer con flex */
+    flex: 1; /*Ocupa el resto del espacio disponible*/
+}
+
+.flex > img {
+    inline-size: 400px;
+    flex-shrink: 0;
+}
+
+/* .flex > p { */
+    /* border: 1px solid seagreen !important; */
+    /* flex-basis: 50px;  */
+    /*Base flexible 50px menor al elemento superior*/
+    /* 
+    (FLEX CONTAINER - FLEX-BASIS) / NÚMERO DE ELEMENTOS + FLEX_BASIS C/U = TAMAÑO DE CADA ELEMENTO
+    EJ: (1024 - 250)/3 + 50 = 308
+    */
+/* } */

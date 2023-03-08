@@ -1,3 +1,5 @@
+@import './display-flex.css';
+
 :root {
     --darkColor: #04001e;
     --lightColor: #DFFBFF;
@@ -17,14 +19,14 @@ a {
 .wrapper {
     /* max-width: 1024px; */
     max-inline-size: 64rem;  /*64x16*/
-    /* border: 1px solid red; */
+    /* border: 5px solid blue; */
     margin: auto;
 }
 
 .box {
     border: 5px dashed var(--primaryColor);
     padding: 1rem;
-    counter-increment: flex-items; /*El nombre del contador puede variar*/
+    counter-increment: flex-items;
 }
 
 .box::after {

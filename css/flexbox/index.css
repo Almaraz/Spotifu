@@ -23,9 +23,7 @@ a {
 }
 
 .wrapper {
-    /* max-width: 1024px; */
     max-inline-size: 64rem;  /*64x16*/
-    /* border: 5px solid blue; */
     margin: auto;
 }
 

@@ -12,8 +12,3 @@
     /* order: 1; */
     order: -1;
 }
-/* 
-.flexOrder:nth-child(odd) img {
-    border: 1px solid red; 
-    order: 2; //de manera implicita, al definir los órdenes
-} */

@@ -1,10 +1,5 @@
 .flexWrap {
     display: flex;
     overflow: auto;
-    /* flex-wrap: nowrap; */
-    /* flex-wrap: wrap;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse; */
-    /* Mezcla de dirección y wrap */
     flex-flow: row-reverse wrap-reverse;
 }

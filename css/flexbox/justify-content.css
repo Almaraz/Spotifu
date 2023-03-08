@@ -4,11 +4,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */
-    /* align-items: stretch; default value */
-    /* block-size: 1000px; */
-    /* align-items: flex-start; */
 }
 
 .spaceBetween {
@@ -26,21 +21,6 @@
 }
 
 .spaceBetween img {
-    /* height: 50px; */
     block-size: 100px;
     border-radius: 50%;
 }
-
-/* .justifyContent img:nth-of-type(1) {
-    align-self: flex-end;
-}
-
-.justifyContent img:nth-of-type(2) {
-    align-self: center;
-} */
-
-/* 
-.justifyContent > img {
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-} */

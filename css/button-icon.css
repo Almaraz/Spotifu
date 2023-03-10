@@ -1,0 +1,36 @@
+.buttonIcon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+
+/* Cambio por estado */
+.buttonIcon.is-white {
+    background: var(--white);
+    color: var(--gray50);
+}
+
+.buttonIcon.is-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+/* Alinear icono de play al centro */
+.buttonIcon .icon-play {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.buttonIcon:active {
+    transform: scale(.95);
+}
+
+/* Botón que incluya un estad */
+.buttonIcon:hover:is([class*='is-']) {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+}

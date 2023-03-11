@@ -30,7 +30,7 @@
     transform: scale(.95);
 }
 
-/* Botón que incluya un estad */
+/* Botón que incluya un estado */
 .buttonIcon:hover:is([class*='is-']) {
     box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
 }

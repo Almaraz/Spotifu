@@ -4,6 +4,7 @@
 @import './link.css';
 @import './button-icon.css';
 @import './logo.css';
+@import './list.css';
 
 :root {
 	--primary: #00b050;
@@ -14,11 +15,11 @@
 	--gray40: #181818;
 	--gray50: #121212;
 	--gray60: #000000;
-	--basefontFamily: Avenir, Helvetica, sans-serif;
-	--headline1: bold 2rem/normal var(--basefontFamily);
-	--headline2: bold 1.5rem/1.75rem var(--basefontFamily);
-    --basefont: normal .875rem/1.375rem var(--basefontFamily); 
-    --basefontBold: bold .875rem/1.375rem var(--basefontFamily);
-    --button: bold 0.875rem/1rem var(--basefontFamily); 
-    --small: normal .75em/normal var(--basefontFamily);
+	--baseFontFamily: Avenir, Helvetica, sans-serif;
+	--headline1: bold 2rem/normal var(--baseFontFamily);
+	--headline2: bold 1.5rem/1.75rem var(--baseFontFamily);
+    --baseFont: normal .875rem/1.375rem var(--baseFontFamily); 
+    --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily);
+    --button: bold 0.875rem/1rem var(--baseFontFamily); 
+    --small: normal .75em/normal var(--baseFontFamily);
 }

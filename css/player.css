@@ -1,0 +1,12 @@
+/* .player {
+
+} */
+
+.player-control {
+    border: none;
+    padding: .5rem;
+    background: none;
+    color: var(--gray10);
+    font-size: 1.5rem;
+    cursor: pointer;
+}

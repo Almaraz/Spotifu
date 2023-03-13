@@ -23,7 +23,7 @@ a {
 }
 
 .wrapper {
-    max-inline-size: 64rem;  /*64x16*/
+    max-inline-size: 64rem;
     margin: auto;
 }
 

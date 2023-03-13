@@ -8,7 +8,6 @@
     color: var(--gray10);
 }
 
-/* Cambio por estado */
 .buttonIcon.is-white {
     background: var(--white);
     color: var(--gray50);
@@ -19,7 +18,6 @@
     color: var(--white);
 }
 
-/* Alinear icono de play al centro */
 .buttonIcon .icon-play {
     position: relative;
     left: 1px;
@@ -30,7 +28,6 @@
     transform: scale(.95);
 }
 
-/* Botón que incluya un estado */
 .buttonIcon:hover:is([class*='is-']) {
     box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
 }

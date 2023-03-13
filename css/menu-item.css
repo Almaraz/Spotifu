@@ -1,0 +1,43 @@
+.menuItem {
+    /* border: 5px solid yellow; */
+}
+
+.menuItem a {
+    /* border: 5px solid blue; */
+    /*display: block; Expandir enlace a lo largo del contenido*/
+    display: flex;
+    font: var(--button);
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    block-size: 2.5rem;
+    /* line-height: 2.5rem; */
+    align-items: center;
+    gap: .5rem;
+}
+
+.menuItem a:hover {
+    text-decoration: none;
+}
+
+.menuItem [class^="icon-"] {
+    /* border: 1px solid powderblue; */
+    font-size: 1.5rem;
+}
+
+.menuItem.is-active a {
+    color: white;
+    box-shadow: inset 4px 0 0 var(--primary);
+}
+
+/* Llenar icono activo manualmente */
+.menuItem.is-active .icon-home:before{
+	content: '\e909';
+}
+
+.menuItem.is-active .icon-search:before{
+	content: '\e913';
+}
+
+/* .menuItem.is-active .icon-creditCard:before{
+	font-weight: bold;
+} */

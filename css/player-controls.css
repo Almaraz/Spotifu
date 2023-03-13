@@ -1,0 +1,13 @@
+.playerControls {
+    /* border: 1px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.playerControls-buttons {
+    /* border: 1px solid brown; */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}

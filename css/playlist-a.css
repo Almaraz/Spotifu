@@ -1,16 +1,12 @@
 .playlistA {
-    /* border: 1px solid red; */
-    /* Con base en 14px de fuente base (875rem) se utilizarán em*/
-    /* font-size: 14; basefont */
-    inline-size: 13em; /*182px*/
+    inline-size: 13em;
     padding: 1rem;
     border-radius: .25rem;
     background: var(--gray40);
-    box-sizing: border-box; /*Para que obedezcan a diferentes reglas*/
+    box-sizing: border-box;
     transition: .3s background;
 }
 
-/* El focus resalta con tab */
 .playlistA:hover, .playlistA:focus-within {
     cursor: pointer;
     background: var(--gray30);
@@ -18,19 +14,22 @@
 
 .playlistA:hover .playlistA-cover button,
 .playlistA:focus-within .playlistA-cover button {
-    /* display: block; */
     opacity: 1;
     transform: translateY(0);
 }
 
 .playlistA-cover img {
     vertical-align: middle;
+    /* width */
+    /* height*/
+    inline-size: 100%;
+    block-size: auto;
 }
 
 .playlistA-cover {
     position: relative;
     border-radius: .75rem;
-    overflow: hidden; /*Esto para que no se desborde la imagen al poner el border en un elemento padre*/
+    overflow: hidden;
     margin-block-end: 1rem;
 }
 
@@ -38,7 +37,6 @@
     position: absolute;
     right: .5rem;
     bottom: .5rem;
-    /* display: none; */
     opacity: 0; 
     transform: translateY(.5rem);
     will-change: opacity, transform;

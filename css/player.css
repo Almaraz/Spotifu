@@ -8,15 +8,11 @@
     display: flex;
     gap: 1.5rem;
     padding: 1rem;
-    /* margin-block-start: 5rem; */
-    /* shadow, donde se expande, x, y, que se espanda o no y color */
     box-shadow: inset 1px 1px 0 var(--gray30);
 }
 
-/* Hijo directo ocupa el 100% */
 .player > * {
     flex: 1;
-    /* border: 1px solid red; */
 }
 
 .player-playerVolume {

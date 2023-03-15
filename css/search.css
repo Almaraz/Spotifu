@@ -6,7 +6,7 @@
     position: absolute;
     font-size: 1rem;
     left: .5rem;
-    top: calc(50% - .5rem); /*La mitad del alto total, menos la mitad del tamaño del elemento*/
+    top: calc(50% - .5rem);
     block-size: 1rem;
     color: var(--gray10);
 }
@@ -19,7 +19,7 @@
     max-inline-size: 22rem;
     width: 100%;
     padding: .5rem;
-    padding-inline-start: 2rem; /*Inicio (.5), inicio de icono (1), fin de icono (.5)*/
+    padding-inline-start: 2rem;
 }
 
 .search:focus-within i{

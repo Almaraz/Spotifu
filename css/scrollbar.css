@@ -1,7 +1,7 @@
 /* Scrollbar general en webkit */
 ::-webkit-scrollbar {
-    inline-size: .5rem;
-    block-size: .5rem;
+    inline-size: .4rem;
+    block-size: .4rem;
 }
 
 /* ::-webkit-scrollbar-button {

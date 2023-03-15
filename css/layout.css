@@ -1,0 +1,36 @@
+:root {
+    --sidebarInlineSize: 15rem;
+    --minBlockSize: 37.5rem; /*600px*/
+    --minInlineSize: 48rem; /*768px*/
+    --bottomSize: 5.5rem;
+}
+
+.layout {
+    /* box-shadow: inset 0 0 0 10px blue; */
+    min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar {
+    inline-size: var(--sidebarInlineSize);
+    block-size: calc(100vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    overflow: auto; /*Para dar scroll*/
+    flex-shrink: 0; /*Para que no se encoja*/
+}
+
+.layout-main {
+    /*block-size: 100vh; Usa el 100% (todo) el viewport height visible*/
+    /* Para que se quite el scrooll vertical hay que tomar el 100% del alto visible - el alto del footer */
+    block-size: calc(100vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    overflow: auto; /*Para que no se desborde y funcione el scroll*/
+}
+
+.layout-bottom {
+    flex: 1;
+    block-size: var(--bottomSize); /*Solo para especificar que no exceda su tamaño*/
+}
+
+.layout-block {
+    display: flex;
+}

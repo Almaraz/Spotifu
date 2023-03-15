@@ -10,327 +10,646 @@
 </head>
 
 <body class="body">
-    <div class="sticky">
-        <header class="header" aria-label="Barra superior y menú del usuario">
-            <div class="navigation">
-                <button class="navigation-prev" aria-label="Volver" title="Volver">
-                    <i class="icon-arrowLeft" aria-hidden="true"></i>
-                </button>
-                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
-                    <i class="icon-arrowRight" aria-hidden="true"></i>
-                </button>
+    <div class="page">
+        <div class="sticky">
+            <div class="page-block">
+                <header class="header" aria-label="Barra superior y menú del usuario">
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver">
+                            <i class="icon-arrowLeft" aria-hidden="true"></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                            <i class="icon-arrowRight" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <form class="search" role="search" aria-label="Buscar por artista, canciones o podcast">
+                        <i class="icon-search" aria-hidden="true"></i>
+                        <input type="search" placeholder="¿Qué quieres escuchar?">
+                    </form>
+                </header>
             </div>
-            <form class="search" role="search" aria-label="Buscar por artista, canciones o podcast">
-                <i class="icon-search" aria-hidden="true"></i>
-                <input type="search" placeholder="¿Qué quieres escuchar?">
-            </form>
-        </header>
+        </div>
+        <main class="page-block">
+            <section class="playlistList" aria-labelledby="region1">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region1">Buen día</h2>
+                </div>
+                <div class="navigation">
+                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/descubrimiento-semanal.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Descubrimiento Semanal">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Descubrimiento Semanal</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Descubrimiento Semanal"
+                                    title="Reproducir la lista de reproducción Descubrimiento Semanal">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/radar-de-novedades.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Radar de Novedades">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Radar de Novedades</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Radar de Novedades"
+                                    title="Reproducir la lista de reproducción Radar de Novedades">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/habitat-II.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Hábitat II">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Hábitat II</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Hábitat II"
+                                    title="Reproducir la lista de reproducción Hábitat II">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/mix-de-musica-cristiana.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Mix de Música Cristiana">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Mix de Música Cristiana</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Mix de Música Cristiana"
+                                    title="Reproducir la lista de reproducción Mix de Música Cristiana">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/mix-indie.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Mix indie">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Mix indie</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Mix indie"
+                                    title="Reproducir la lista de reproducción Mix indie">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/study-lofi.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Study Lofi 📚">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Study Lofi 📚</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Study Lofi 📚"
+                                    title="Reproducir la lista de reproducción Study Lofi 📚">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/this-is-paramore.jpeg" width="76" height="76"
+                                alt="Cover de la playlist This Is Paramore">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">This Is Paramore</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción This Is Paramore"
+                                    title="Reproducir la lista de reproducción This Is Paramore">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/best-of-live-worship.jpeg" width="76" height="76"
+                                alt="Cover de la playlist Best of Live Worship">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Best of Live Worship</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción Best of Live Worship"
+                                    title="Reproducir la lista de reproducción Best of Live Worship">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/naruto.jpeg" width="76" height="76"
+                                alt="Cover de la playlist NARUTO -ナルト-」シリーズ">
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">NARUTO -ナルト-」シリーズ</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary"
+                                    aria-label="Reproducir la lista de reproducción NARUTO -ナルト-」シリーズ"
+                                    title="Reproducir la lista de reproducción NARUTO -ナルト-」シリーズ">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region2">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region2">Escuchado recientemente</h2>
+                </div>
+                <div class="navigation">
+                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/descubrimiento-semanal.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Descubrimiento Semanal">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Descubrimiento Semanal</h3>
+                        <h4 class="playlistA-description">Temas elegidos especialmente para ti.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-sabino.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Sabino">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Sabino</h3>
+                        <h4 class="playlistA-description">This Is: Sabino. Sus mejores éxitos, todos en una playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/radar-de-novedades.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Radar de Novedades">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Radar de Novedades</h3>
+                        <h4 class="playlistA-description">Escucha las últimas canciones de artistas que sigues y
+                            sencillos.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-the-warning.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is The Warning">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is The Warning</h3>
+                        <h4 class="playlistA-description">This Is: The Warning. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-musica-cristiana.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Mix de Música Cristiana">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Música Cristiana</h3>
+                        <h4 class="playlistA-description">Hillsong, Elevation Worship, Ben P. y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-artic-monkeys.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Artic Monkeys">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Artic Monkeys</h3>
+                        <h4 class="playlistA-description">This Is: Arctic Monkeys. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-chill.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Mix de Chill">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Chill</h3>
+                        <h4 class="playlistA-description">Laffey, Chau Sara, Rivers & Robots y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/esencial-con-n.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Esencial con Ñ">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Esencial con Ñ</h3>
+                        <h4 class="playlistA-description">Un extracto de alabanzas en español.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/habitat-II.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Hábitat II">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Hábitat II</h3>
+                        <h4 class="playlistA-description">Te comparto de mi vitamina de día a día.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-indie.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Mix Indie">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix Indie</h3>
+                        <h4 class="playlistA-description">lotusbliss, Knox Hamilton, Local Natives y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/best-of-live-worship.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Best of Live Worship">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Best of Live Worship</h3>
+                        <h4 class="playlistA-description">Experience the best of live worship here.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-apocalyptica.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Apocalyptica">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Apocalyptica</h3>
+                        <h4 class="playlistA-description">This is: Apocalyptica. Sus mejores éxitos, todos en una
+                            playlist.</h4>
+                    </div>
+                </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region3">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region3">Podcast</h2>
+                </div>
+                <div class="navigation">
+                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/descubrimiento-semanal.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Descubrimiento Semanal">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Descubrimiento Semanal</h3>
+                        <h4 class="playlistA-description">Temas elegidos especialmente para ti.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-sabino.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Sabino">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Sabino</h3>
+                        <h4 class="playlistA-description">This Is: Sabino. Sus mejores éxitos, todos en una playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/radar-de-novedades.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Radar de Novedades">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Radar de Novedades</h3>
+                        <h4 class="playlistA-description">Escucha las últimas canciones de artistas que sigues y
+                            sencillos.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-the-warning.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is The Warning">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is The Warning</h3>
+                        <h4 class="playlistA-description">This Is: The Warning. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-musica-cristiana.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Mix de Música Cristiana">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Música Cristiana</h3>
+                        <h4 class="playlistA-description">Hillsong, Elevation Worship, Ben P. y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-artic-monkeys.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Artic Monkeys">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Artic Monkeys</h3>
+                        <h4 class="playlistA-description">This Is: Arctic Monkeys. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-chill.jpeg" width="150" height="150" alt="Cover de la playlist Mix de Chill">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Chill</h3>
+                        <h4 class="playlistA-description">Laffey, Chau Sara, Rivers & Robots y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/esencial-con-n.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Esencial con Ñ">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Esencial con Ñ</h3>
+                        <h4 class="playlistA-description">Un extracto de alabanzas en español.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/habitat-II.jpeg" width="150" height="150" alt="Cover de la playlist Hábitat II">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Hábitat II</h3>
+                        <h4 class="playlistA-description">Te comparto de mi vitamina de día a día.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-indie.jpeg" width="150" height="150" alt="Cover de la playlist Mix Indie">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix Indie</h3>
+                        <h4 class="playlistA-description">lotusbliss, Knox Hamilton, Local Natives y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/best-of-live-worship.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Best of Live Worship">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Best of Live Worship</h3>
+                        <h4 class="playlistA-description">Experience the best of live worship here.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-apocalyptica.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Apocalyptica">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Apocalyptica</h3>
+                        <h4 class="playlistA-description">This is: Apocalyptica. Sus mejores éxitos, todos en una
+                            playlist.</h4>
+                    </div>
+                </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region4">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region4">Mixes hechos para ti</h2>
+                </div>
+                <div class="navigation">
+                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/descubrimiento-semanal.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Descubrimiento Semanal">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Descubrimiento Semanal</h3>
+                        <h4 class="playlistA-description">Temas elegidos especialmente para ti.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-sabino.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Sabino">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Sabino</h3>
+                        <h4 class="playlistA-description">This Is: Sabino. Sus mejores éxitos, todos en una playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/radar-de-novedades.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Radar de Novedades">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Radar de Novedades</h3>
+                        <h4 class="playlistA-description">Escucha las últimas canciones de artistas que sigues y
+                            sencillos.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-the-warning.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is The Warning">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is The Warning</h3>
+                        <h4 class="playlistA-description">This Is: The Warning. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-musica-cristiana.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Mix de Música Cristiana">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Música Cristiana</h3>
+                        <h4 class="playlistA-description">Hillsong, Elevation Worship, Ben P. y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-artic-monkeys.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Artic Monkeys">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Artic Monkeys</h3>
+                        <h4 class="playlistA-description">This Is: Arctic Monkeys. Sus mejores éxitos, todos en una
+                            playlist.
+                        </h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-de-chill.jpeg" width="150" height="150" alt="Cover de la playlist Mix de Chill">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix de Chill</h3>
+                        <h4 class="playlistA-description">Laffey, Chau Sara, Rivers & Robots y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/esencial-con-n.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Esencial con Ñ">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Esencial con Ñ</h3>
+                        <h4 class="playlistA-description">Un extracto de alabanzas en español.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/habitat-II.jpeg" width="150" height="150" alt="Cover de la playlist Hábitat II">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Hábitat II</h3>
+                        <h4 class="playlistA-description">Te comparto de mi vitamina de día a día.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/mix-indie.jpeg" width="150" height="150" alt="Cover de la playlist Mix Indie">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Mix Indie</h3>
+                        <h4 class="playlistA-description">lotusbliss, Knox Hamilton, Local Natives y más.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/best-of-live-worship.jpeg" width="150" height="150"
+                                alt="Cover de la playlist Best of Live Worship">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Best of Live Worship</h3>
+                        <h4 class="playlistA-description">Experience the best of live worship here.</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/this-is-apocalyptica.jpeg" width="150" height="150"
+                                alt="Cover de la playlist This Is Apocalyptica">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">This Is Apocalyptica</h3>
+                        <h4 class="playlistA-description">This is: Apocalyptica. Sus mejores éxitos, todos en una
+                            playlist.</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-    <section class="playlistList" aria-labelledby="region1">
-        <div class="playlistList-top">
-            <h2 class="playlistList-title" id="region1">Buen día</h2>
-        </div>
-        <div class="navigation">
-            <button class="navigation-prev" aria-label="Volver" title="Volver">
-                <i class="icon-arrowLeft" aria-hidden="true"></i>
-            </button>
-            <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
-                <i class="icon-arrowRight" aria-hidden="true"></i>
-            </button>
-        </div>
-        <div class="playlistList-container">
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/descubrimiento-semanal.jpeg" width="76" height="76"
-                        alt="Cover de la playlist Descubrimiento Semanal">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Descubrimiento Semanal</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Descubrimiento Semanal"
-                            title="Reproducir la lista de reproducción Descubrimiento Semanal">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/radar-de-novedades.jpeg" width="76" height="76"
-                        alt="Cover de la playlist Radar de Novedades">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Radar de Novedades</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Radar de Novedades"
-                            title="Reproducir la lista de reproducción Radar de Novedades">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/habitat-II.jpeg" width="76" height="76" alt="Cover de la playlist Hábitat II">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Hábitat II</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Hábitat II"
-                            title="Reproducir la lista de reproducción Hábitat II">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/mix-de-musica-cristiana.jpeg" width="76" height="76"
-                        alt="Cover de la playlist Mix de Música Cristiana">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Mix de Música Cristiana</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Mix de Música Cristiana"
-                            title="Reproducir la lista de reproducción Mix de Música Cristiana">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/mix-indie.jpeg" width="76" height="76" alt="Cover de la playlist Mix indie">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Mix indie</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" aria-label="Reproducir la lista de reproducción Mix indie"
-                            title="Reproducir la lista de reproducción Mix indie">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/study-lofi.jpeg" width="76" height="76" alt="Cover de la playlist Study Lofi 📚">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Study Lofi 📚</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Study Lofi 📚"
-                            title="Reproducir la lista de reproducción Study Lofi 📚">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/this-is-paramore.jpeg" width="76" height="76"
-                        alt="Cover de la playlist This Is Paramore">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">This Is Paramore</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción This Is Paramore"
-                            title="Reproducir la lista de reproducción This Is Paramore">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/best-of-live-worship.jpeg" width="76" height="76"
-                        alt="Cover de la playlist Best of Live Worship">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Best of Live Worship</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción Best of Live Worship"
-                            title="Reproducir la lista de reproducción Best of Live Worship">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/naruto.jpeg" width="76" height="76" alt="Cover de la playlist NARUTO -ナルト-」シリーズ">
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">NARUTO -ナルト-」シリーズ</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary"
-                            aria-label="Reproducir la lista de reproducción NARUTO -ナルト-」シリーズ"
-                            title="Reproducir la lista de reproducción NARUTO -ナルト-」シリーズ">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="playlistList" aria-labelledby="region2">
-        <div class="playlistList-top">
-            <h2 class="playlistList-title" id="region2">Escuchado recientemente</h2>
-        </div>
-        <div class="navigation">
-            <button class="navigation-prev" aria-label="Volver" title="Volver">
-                <i class="icon-arrowLeft" aria-hidden="true"></i>
-            </button>
-            <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
-                <i class="icon-arrowRight" aria-hidden="true"></i>
-            </button>
-        </div>
-        <div class="playlistList-container">
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/descubrimiento-semanal.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Descubrimiento Semanal">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Descubrimiento Semanal</h3>
-                <h4 class="playlistA-description">Temas elegidos especialmente para ti.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/this-is-sabino.jpeg" width="150" height="150"
-                        alt="Cover de la playlist This Is Sabino">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">This Is Sabino</h3>
-                <h4 class="playlistA-description">This Is: Sabino. Sus mejores éxitos, todos en una playlist.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/radar-de-novedades.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Radar de Novedades">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Radar de Novedades</h3>
-                <h4 class="playlistA-description">Escucha las últimas canciones de artistas que sigues y sencillos.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/this-is-the-warning.jpeg" width="150" height="150"
-                        alt="Cover de la playlist This Is The Warning">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">This Is The Warning</h3>
-                <h4 class="playlistA-description">This Is: The Warning. Sus mejores éxitos, todos en una
-                    playlist.
-                </h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/mix-de-musica-cristiana.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Mix de Música Cristiana">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Mix de Música Cristiana</h3>
-                <h4 class="playlistA-description">Hillsong, Elevation Worship, Ben P. y más.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/this-is-artic-monkeys.jpeg" width="150" height="150"
-                        alt="Cover de la playlist This Is Artic Monkeys">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">This Is Artic Monkeys</h3>
-                <h4 class="playlistA-description">This Is: Arctic Monkeys. Sus mejores éxitos, todos en una
-                    playlist.
-                </h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/mix-de-chill.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Mix de Chill">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Mix de Chill</h3>
-                <h4 class="playlistA-description">Laffey, Chau Sara, Rivers & Robots y más.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/esencial-con-n.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Esencial con Ñ">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Esencial con Ñ</h3>
-                <h4 class="playlistA-description">Un extracto de alabanzas en español.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/habitat-II.jpeg" width="150" height="150" alt="Cover de la playlist Hábitat II">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Hábitat II</h3>
-                <h4 class="playlistA-description">Te comparto de mi vitamina de día a día.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/mix-indie.jpeg" width="150" height="150" alt="Cover de la playlist Mix Indie">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Mix Indie</h3>
-                <h4 class="playlistA-description">lotusbliss, Knox Hamilton, Local Natives y más.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/best-of-live-worship.jpeg" width="150" height="150"
-                        alt="Cover de la playlist Best of Live Worship">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Best of Live Worship</h3>
-                <h4 class="playlistA-description">Experience the best of live worship here.</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/this-is-apocalyptica.jpeg" width="150" height="150"
-                        alt="Cover de la playlist This Is Apocalyptica">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">This Is Apocalyptica</h3>
-                <h4 class="playlistA-description">This is: Apocalyptica. Sus mejores éxitos, todos en una
-                    playlist.</h4>
-            </div>
-        </div>
-    </section>
 
     <div class="sidebar">
         <header class="logo">

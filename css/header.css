@@ -6,9 +6,6 @@
     padding-block-start: 1rem;
     padding-block-end: 1rem;
     align-items: center;
-    /* position: sticky;
-    top: 0;
-    z-index: 1; */
     backdrop-filter: blur(5px);
 }
 
